@@ -45,7 +45,7 @@ body::before {
     width: 380px;
     height: 740px;
     max-height: 100vh;
-    background-image: url("images/flowers.png");
+    background-image: url("flowers.png");
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: contain;
