@@ -345,9 +345,7 @@ section h2 {
 }
 
 .contact-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--space-4);
+    max-width: 720px;
 }
 
 .contact-info h3 {
@@ -383,55 +381,6 @@ section h2 {
     margin-right: var(--space-1);
 }
 
-.contact-form {
-    background-color: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    padding: var(--space-3);
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-2);
-}
-
-.form-group {
-    display: flex;
-    flex-direction: column;
-    gap: 0.35rem;
-}
-
-.form-group label {
-    font-size: 0.85rem;
-    color: var(--text-muted);
-    font-family: var(--font-heading);
-}
-
-.form-group input,
-.form-group textarea {
-    background-color: var(--bg);
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    padding: var(--space-1) var(--space-2);
-    color: var(--text);
-    font-family: var(--font-body);
-    font-size: 1rem;
-    transition: border-color 0.2s ease;
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-    outline: none;
-    border-color: var(--accent);
-}
-
-.form-group textarea {
-    resize: vertical;
-}
-
-.form-submit {
-    margin-top: var(--space-1);
-    width: 100%;
-}
-
 footer {
     padding-top: var(--space-4);
     padding-bottom: var(--space-4);
@@ -457,10 +406,6 @@ footer {
         gap: var(--space-2);
 }
 
-    .contact-wrapper {
-        grid-template-columns: 1fr;
-        gap: var(--space-3);
-}
 
     .nav-links {
         gap: var(--space-2);
